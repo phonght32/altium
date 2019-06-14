@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=R8 Old Footprint=R 1/4W DIP 400mil New Footprint=R0805
+Change Component Designator: OldDesignator=DEC NewDesignator=SW4
+Change Component Designator: OldDesignator=INC NewDesignator=SW3
+Change Component Designator: OldDesignator=MODE NewDesignator=SW2
+Change Component Designator: OldDesignator=Reset NewDesignator=SW1
+Added Member To Class: ClassName=TTDT2 Member=Component SW1 SW
+Added Member To Class: ClassName=TTDT2 Member=Component SW2 SW
+Added Member To Class: ClassName=TTDT2 Member=Component SW3 SW
+Added Member To Class: ClassName=TTDT2 Member=Component SW4 SW

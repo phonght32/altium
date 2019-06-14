@@ -1,0 +1,6 @@
+Change Component Footprint: Designator=C1 Old Footprint=CN1 New Footprint=C0805
+Change Component Footprint: Designator=C3 Old Footprint=CN1 New Footprint=C0805
+Change Component Footprint: Designator=C5 Old Footprint=CN1 New Footprint=C0805
+Change Component Footprint: Designator=R1 Old Footprint=R 1/4W DIP 100mil New Footprint=R0805
+Change Component Footprint: Designator=R3 Old Footprint=R 1/4W DIP 100mil New Footprint=R0805
+Change Component Footprint: Designator=R4 Old Footprint=R 1/4W DIP 100mil New Footprint=R0805

@@ -1,0 +1,7 @@
+Add component (AddParameter): Name = "Link"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=S1(SWDIP-2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Link"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetBT2_1 Pin=S1-1
+Added Pin To Net: NetName=NetC5_2 Pin=S1-4
+Added Member To Class: ClassName=TTDT2 Member=Component S1 SW - DIP2

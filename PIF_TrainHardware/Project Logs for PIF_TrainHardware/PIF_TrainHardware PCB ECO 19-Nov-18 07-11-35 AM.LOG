@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=MCU_ADC_IN0 Pin=P6-1
+Removed Pin From Net: NetName=MCU_ADC_IN1 Pin=P6-2
+Removed Pin From Net: NetName=MCU_ADC_IN8 Pin=P6-3
+Removed Pin From Net: NetName=MCU_ADC_IN9 Pin=P6-4
+Removed Pin From Net: NetName=3V3 Pin=P6-5
+Removed Pin From Net: NetName=3V3 Pin=P6-6
+Removed Pin From Net: NetName=GND Pin=P6-7
+Removed Pin From Net: NetName=GND Pin=P6-8
+Change Component Designator: OldDesignator=P7 NewDesignator=P6
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P7(JP6)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=P7-1
+Added Pin To Net: NetName=MCU_ADC_IN9 Pin=P7-2
+Added Pin To Net: NetName=MCU_ADC_IN8 Pin=P7-3
+Added Pin To Net: NetName=MCU_ADC_IN1 Pin=P7-4
+Added Pin To Net: NetName=MCU_ADC_IN0 Pin=P7-5
+Added Pin To Net: NetName=3V3 Pin=P7-6

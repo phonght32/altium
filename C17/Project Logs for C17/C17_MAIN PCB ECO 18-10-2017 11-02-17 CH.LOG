@@ -1,0 +1,12 @@
+Change Component Footprint: Designator=C3 Old Footprint=CP1/2 (5x7mm) New Footprint=CP2/4 (10x16.5mm)
+Change Component Designator: OldDesignator=I2C NewDesignator=J12
+Change Component Designator: OldDesignator=JTAG NewDesignator=J16
+Change Component Designator: OldDesignator=LS NewDesignator=LS?
+Change Component Designator: OldDesignator=MSP430G2553 NewDesignator=U1
+Change Component Designator: OldDesignator=SPI NewDesignator=J15
+Change Component Designator: OldDesignator=UART NewDesignator=J13
+Change component parameters (AddParameter): Name = "Link"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100uF/25V"; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Link"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "100uF/25V"; VariantName = "[No Variations]"

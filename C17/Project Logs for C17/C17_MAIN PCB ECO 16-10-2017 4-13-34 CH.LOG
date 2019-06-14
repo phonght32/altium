@@ -1,0 +1,6 @@
+Added Component: Designator=LOGO1(PIF LOGO BIG SSTOP)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=C17 Member=Component J14 Header 2x3
+Added Member To Class: ClassName=C17 Member=Component LOGO1 LOGO PIF
+Added Member To Class: ClassName=C17 Member=Component R4 Resistor
+Added Room: Name=C17

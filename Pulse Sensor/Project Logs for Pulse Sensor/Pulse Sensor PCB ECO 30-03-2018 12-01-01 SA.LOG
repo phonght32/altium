@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=P1.0 Pin=J2-1
+Removed Pin From Net: NetName=3V3 Pin=J2-2
+Removed Pin From Net: NetName=GND Pin=J2-3
+Add component (AddParameter): Name = "Link"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J2(HDR1X3H)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Link"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=P1.0 Pin=J2-1
+Added Pin To Net: NetName=3V3 Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-3
+Added Member To Class: ClassName=Pulse Sensor Member=Component J2 Header 1x3

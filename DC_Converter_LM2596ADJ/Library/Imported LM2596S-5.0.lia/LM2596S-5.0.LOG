@@ -1,0 +1,27 @@
+PCAD Importer Log
+Project : LM2596S-5.0.LibPkg
+
+Section : D:\workspace\workspace_Altium\DC_Converter_LM2596ADJ\Library\LM2596S-5.0.lia
+    Section : PCB Library - LM2596S-5.0.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token LM2596S-5.0 On Line 162
+            Warning - 1 : Skipping Token attachedSymbol On Line 249
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - LM2596S-5.0.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token multiLayer On Line 96
+            Warning - 1 : Skipping Token layerContents On Line 104
+            Warning - 1 : Skipping Token layerContents On Line 132
+        EndSection
+
+        Section : Generating SCH Library - LM2596S-5.0.SchLib
+        EndSection
+    EndSection
+EndSection

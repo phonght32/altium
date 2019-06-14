@@ -1,0 +1,4 @@
+Trong folder này g?m có:
+- 1 Project Altium các b?n t? xu?t ra file pdf ?i in r?i làm m?ch nhé, à mà ???ng m?ch mình ?i dây h?i nh? các b?n, nên qua Lam S?n in cho  d? ?i m?ch :))
+- 1 file datasheet c?a Led matrix các b?n c?n d?a vào nó ?? code.
+- 2 file Scan_led.h, Scan_led.c ?ây 2 là file th? vi?n dùng ?? quét led mình ?ã vi?t, ?? s? d?ng các b?n c?n ph?i copy nó vào project c?a mình và thêm dòng #include "Scan_led.h" vào ??u ?? s? d?ng các hàm trong th? vi?n nhé.

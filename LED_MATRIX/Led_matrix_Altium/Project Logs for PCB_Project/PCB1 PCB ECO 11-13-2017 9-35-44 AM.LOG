@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GND Pin=IC3-9
+Removed Pin From Net: NetName=VCC Pin=IC3-10
+Removed Pin From Net: NetName=CLK_R Pin=IC4-11
+Removed Pin From Net: NetName=LAT_R Pin=IC4-12
+Removed Pin From Net: NetName=CLK_C Pin=P2-1
+Removed Pin From Net: NetName=LAT_C Pin=P2-2
+Removed Pin From Net: NetName=DATA_C Pin=P2-3
+Added Pin To Net: NetName=VCC Pin=IC3-9
+Added Pin To Net: NetName=GND Pin=IC3-10
+Added Pin To Net: NetName=LAT_R Pin=IC4-11
+Added Pin To Net: NetName=CLK_R Pin=IC4-12
+Added Pin To Net: NetName=DATA_C Pin=P2-1
+Added Pin To Net: NetName=CLK_C Pin=P2-2
+Added Pin To Net: NetName=LAT_C Pin=P2-3
+Added Room: Name=Sheet1

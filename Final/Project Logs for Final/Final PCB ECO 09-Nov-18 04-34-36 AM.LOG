@@ -1,0 +1,176 @@
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "STM32F103C8T6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "LQFP-48 STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/STM32F103C8T6/STMicroelectronics/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=2(LQFP48_7X7MM_0.5MMPP)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "STM32F103C8T6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "LQFP-48 STMicroelectronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/STM32F103C8T6/STMicroelectronics/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Added Component: Designator=C9(CAP-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "103"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10pF"; VariantName = "[No Variations]"
+Added Component: Designator=C10(CAP-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10pF"; VariantName = "[No Variations]"
+Added Component: Designator=C11(CAP-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10pF"; VariantName = "[No Variations]"
+Added Component: Designator=D3(LED_0603_Blue)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D4(LED_0603_Blue)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D5(LED_0603_Blue)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D6(LED_0603_Blue)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D7(LED_0603_Blue)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P2(JP3)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RES-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330R"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RES-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "330R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330R"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RES-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "330R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330R"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RES-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "330R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330R"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RES-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "330R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "330R"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RES-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "330R"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "Button chip 4 pin"; VariantName = "[No Variations]"
+Added Component: Designator=SW1(Tact SW 4 pin)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Button chip 4 pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Crystal, Thru-Hole; 2 Leads; Body 3.1 x 8.2 mm (Dia.xH)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "R38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=Y1(XT2)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Crystal, Thru-Hole; 2 Leads; Body 3.1 x 8.2 mm (Dia.xH)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "R38"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MCU_VBAT Pin=2-1
+Added Pin To Net: NetName=Net2_5 Pin=2-5
+Added Pin To Net: NetName=Net2_6 Pin=2-6
+Added Pin To Net: NetName=NRST Pin=2-7
+Added Pin To Net: NetName=GND Pin=2-8
+Added Pin To Net: NetName=3V3 Pin=2-9
+Added Pin To Net: NetName=LED_ALARM_1 Pin=2-13
+Added Pin To Net: NetName=LED_ALARM_2 Pin=2-14
+Added Pin To Net: NetName=LED_ALARM_3 Pin=2-15
+Added Pin To Net: NetName=LED_ALARM_4 Pin=2-16
+Added Pin To Net: NetName=LED_ALARM_5 Pin=2-17
+Added Pin To Net: NetName=GPIO_GPS_RESET Pin=2-20
+Added Pin To Net: NetName=GPS_RXD Pin=2-21
+Added Pin To Net: NetName=GPS_TXD Pin=2-22
+Added Pin To Net: NetName=3V3 Pin=2-23
+Added Pin To Net: NetName=GND Pin=2-24
+Added Pin To Net: NetName=GSM_RXD Pin=2-30
+Added Pin To Net: NetName=GSM_TXD Pin=2-31
+Added Pin To Net: NetName=GSM_CTS Pin=2-32
+Added Pin To Net: NetName=GSM_RTS Pin=2-33
+Added Pin To Net: NetName=JTMS_SWDIO Pin=2-34
+Added Pin To Net: NetName=GND Pin=2-35
+Added Pin To Net: NetName=3V3 Pin=2-36
+Added Pin To Net: NetName=JTCK_SWCLK Pin=2-37
+Added Pin To Net: NetName=GSM_STATUS Pin=2-41
+Added Pin To Net: NetName=GPIO_PWRKEY Pin=2-42
+Added Pin To Net: NetName=GPIO_EMERG_OFF Pin=2-43
+Added Pin To Net: NetName=GND Pin=2-47
+Added Pin To Net: NetName=3V3 Pin=2-48
+Added Pin To Net: NetName=NRST Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=Net2_5 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=Net2_6 Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=GND Pin=D3-2
+Added Pin To Net: NetName=NetD4_1 Pin=D4-1
+Added Pin To Net: NetName=GND Pin=D4-2
+Added Pin To Net: NetName=NetD5_1 Pin=D5-1
+Added Pin To Net: NetName=GND Pin=D5-2
+Added Pin To Net: NetName=NetD6_1 Pin=D6-1
+Added Pin To Net: NetName=GND Pin=D6-2
+Added Pin To Net: NetName=NetD7_1 Pin=D7-1
+Added Pin To Net: NetName=GND Pin=D7-2
+Added Pin To Net: NetName=GND Pin=P2-1
+Added Pin To Net: NetName=JTCK_SWCLK Pin=P2-2
+Added Pin To Net: NetName=JTMS_SWDIO Pin=P2-3
+Added Pin To Net: NetName=NRST Pin=R8-1
+Added Pin To Net: NetName=3V3 Pin=R8-2
+Added Pin To Net: NetName=LED_ALARM_1 Pin=R9-1
+Added Pin To Net: NetName=NetD3_1 Pin=R9-2
+Added Pin To Net: NetName=LED_ALARM_2 Pin=R10-1
+Added Pin To Net: NetName=NetD4_1 Pin=R10-2
+Added Pin To Net: NetName=LED_ALARM_3 Pin=R11-1
+Added Pin To Net: NetName=NetD5_1 Pin=R11-2
+Added Pin To Net: NetName=LED_ALARM_4 Pin=R12-1
+Added Pin To Net: NetName=NetD6_1 Pin=R12-2
+Added Pin To Net: NetName=LED_ALARM_5 Pin=R13-1
+Added Pin To Net: NetName=NetD7_1 Pin=R13-2
+Added Pin To Net: NetName=GND Pin=SW1-1
+Added Pin To Net: NetName=NRST Pin=SW1-2
+Added Pin To Net: NetName=GND Pin=SW1-3
+Added Pin To Net: NetName=NRST Pin=SW1-4
+Added Pin To Net: NetName=Net2_6 Pin=Y1-1
+Added Pin To Net: NetName=Net2_5 Pin=Y1-2
+Added Member To Class: ClassName=page3_mcu Member=Component 2 STM32F103C8T6
+Added Member To Class: ClassName=page3_mcu Member=Component C9 103
+Added Member To Class: ClassName=page3_mcu Member=Component C10 10pF
+Added Member To Class: ClassName=page3_mcu Member=Component C11 10pF
+Added Member To Class: ClassName=page3_mcu Member=Component D3 LED SMD
+Added Member To Class: ClassName=page3_mcu Member=Component D4 LED SMD
+Added Member To Class: ClassName=page3_mcu Member=Component D5 LED SMD
+Added Member To Class: ClassName=page3_mcu Member=Component D6 LED SMD
+Added Member To Class: ClassName=page3_mcu Member=Component D7 LED SMD
+Added Member To Class: ClassName=page3_mcu Member=Component P2 Header 3
+Added Member To Class: ClassName=page3_mcu Member=Component R8 RESISTOR SMD
+Added Member To Class: ClassName=page3_mcu Member=Component R9 RESISTOR SMD
+Added Member To Class: ClassName=page3_mcu Member=Component R10 RESISTOR SMD
+Added Member To Class: ClassName=page3_mcu Member=Component R11 RESISTOR SMD
+Added Member To Class: ClassName=page3_mcu Member=Component R12 RESISTOR SMD
+Added Member To Class: ClassName=page3_mcu Member=Component R13 RESISTOR SMD
+Added Member To Class: ClassName=page3_mcu Member=Component SW1 SW
+Added Member To Class: ClassName=page3_mcu Member=Component Y1 XTAL
+Added Room: Name=Page2_power
+Added Room: Name=page3_mcu
+Added Room: Name=Page4_GSM
+Added Room: Name=Page5_GPS

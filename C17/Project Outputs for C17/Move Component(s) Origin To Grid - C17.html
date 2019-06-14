@@ -1,0 +1,377 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 { 
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body { 
+			font-family : segoe ui;
+		}
+
+		td, th {  
+			padding: 0.5em;
+			text-align : left;
+		}
+		th { 
+			background-color : #EEEEEE;
+		
+		}
+		th.column1, td.column1 { 
+			width : 50%; 
+		}
+
+        th.column2, td.column2 {
+            width : 25%;
+        }
+
+		table { 
+			width : 100%; 
+            font-size: 0.9em;
+		}
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 5em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error { 
+			color : red;
+			font-weight : bold;
+		}	
+		tr.onmouseout_odd { 
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+			
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);		
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {	
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}	
+	</script><title>Move Component(s) Origin to Grid</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD17\Templates\AD_logo.png
+		"><a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=Reports">customize</acronym></a><h1>Move Component(s) Origin to Grid</h1>
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">13/10/2017</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">8:56:44 SA</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:00</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///E:\Altium\C17\C17.PcbDoc" class="file"><acronym title="E:\Altium\C17\C17.PcbDoc">E:\Altium\C17\C17.PcbDoc</acronym></a></td>
+</tr>
+</table><a name="IDW4X5CPJOOZTDHYKRFVW1Z3J21DH0INMRMJCB5BC4IC5K0V2CXYLK"><h2>Components Origin</h2></a><a name="IDQPJV4GFMSAVUO14SB1V3UDHU1EMLWNML30CMIMFEUDUOZY5JNPKD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="warning"></th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4465mil|Location2.X=4705.288mil|Location1.Y=4000.016mil|Location2.Y=4359.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4465mil|Location2.X=4705.288mil|Location1.Y=4000.016mil|Location2.Y=4359.981mil|Absolute=True">Small Component D9-LED (4545mil,4130mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3238.5mil|Location2.X=3361.5mil|Location1.Y=3451mil|Location2.Y=3870.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3238.5mil|Location2.X=3361.5mil|Location1.Y=3451mil|Location2.Y=3870.981mil|Absolute=True">Small Component Y1-XTAL (3300mil,3750mil) on Bottom Layer</acronym></a> - Origin changed from [3300.638mil:3749.883mil] to [3300mil:3750mil]</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10333.5mil|Location2.X=10616.5mil|Location1.Y=2367.5mil|Location2.Y=2764.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10333.5mil|Location2.X=10616.5mil|Location1.Y=2367.5mil|Location2.Y=2764.481mil|Absolute=True">Small Component VR1-VR (10375mil,2415mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2971.299mil|Location2.X=3259mil|Location1.Y=6176.772mil|Location2.Y=6622.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2971.299mil|Location2.X=3259mil|Location1.Y=6176.772mil|Location2.Y=6622.981mil|Absolute=True">Component U3-L1117-3V3 (3115mil,6350mil) on Bottom Layer</acronym></a> - Component origin is already ON grid. - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1594mil|Location2.X=2206mil|Location1.Y=6204mil|Location2.Y=6757.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1594mil|Location2.X=2206mil|Location1.Y=6204mil|Location2.Y=6757.981mil|Absolute=True">Component U2-7805 (1800mil,6335mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1576mil|Location2.X=2584mil|Location1.Y=4476mil|Location2.Y=5033.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1576mil|Location2.X=2584mil|Location1.Y=4476mil|Location2.Y=5033.981mil|Absolute=True">DIP Component U1-MSP430G2553 (2530mil,4855mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6141mil|Location2.X=6504mil|Location1.Y=2361mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6141mil|Location2.X=6504mil|Location1.Y=2361mil|Location2.Y=2763.481mil|Absolute=True">Component SW4-SW (6195mil,2425mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6551mil|Location2.X=6914mil|Location1.Y=2411mil|Location2.Y=2813.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6551mil|Location2.X=6914mil|Location1.Y=2411mil|Location2.Y=2813.481mil|Absolute=True">Component SW3-SW (6605mil,2475mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5726mil|Location2.X=6089mil|Location1.Y=2361mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5726mil|Location2.X=6089mil|Location1.Y=2361mil|Location2.Y=2763.481mil|Absolute=True">Component SW2-SW (5780mil,2425mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2215mil|Location2.X=2745mil|Location1.Y=5535.006mil|Location2.Y=6034.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2215mil|Location2.X=2745mil|Location1.Y=5535.006mil|Location2.Y=6034.981mil|Absolute=True">Small Component SW1-SW-SPDT (2480mil,5735mil) on Top Layer</acronym></a> - Component origin is already ON grid. - Component pads are OFF grid. No action taken.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3116.5mil|Location2.X=3523.5mil|Location1.Y=3886.5mil|Location2.Y=4252.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3116.5mil|Location2.X=3523.5mil|Location1.Y=3886.5mil|Location2.Y=4252.981mil|Absolute=True">Component S1-SW - DIP2 (3170mil,4070mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7290.5mil|Location2.X=7489mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7290.5mil|Location2.X=7489mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True">Small Component R13-Resistor (7350mil,2605mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8285.5mil|Location2.X=8484mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8285.5mil|Location2.X=8484mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True">Small Component R12-Resistor (8345mil,2605mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3986.5mil|Location2.X=4136.958mil|Location1.Y=3971.5mil|Location2.Y=4982.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3986.5mil|Location2.X=4136.958mil|Location1.Y=3971.5mil|Location2.Y=4982.981mil|Absolute=True">SIP Component R11-Resistor Network 8 (4045mil,4830mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8035.5mil|Location2.X=8234mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=8035.5mil|Location2.X=8234mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True">Small Component R7-Resistor (8095mil,2605mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7785.5mil|Location2.X=7984mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7785.5mil|Location2.X=7984mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True">Small Component R6-Resistor (7845mil,2605mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7540.5mil|Location2.X=7739mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=7540.5mil|Location2.X=7739mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True">Small Component R5-Resistor (7600mil,2605mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10845.5mil|Location2.X=11044mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10845.5mil|Location2.X=11044mil|Location1.Y=2546mil|Location2.Y=2763.481mil|Absolute=True">Small Component R4-Resistor (10905mil,2605mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3991mil|Location2.X=4110.968mil|Location1.Y=6211mil|Location2.Y=6508.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3991mil|Location2.X=4110.968mil|Location1.Y=6211mil|Location2.Y=6508.981mil|Absolute=True">Small Component R2-Resistor (4050mil,6350mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2856mil|Location2.X=3054mil|Location1.Y=5396mil|Location2.Y=5613.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2856mil|Location2.X=3054mil|Location1.Y=5396mil|Location2.Y=5613.981mil|Absolute=True">Small Component R1-Resistor (2915mil,5455mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6967.5mil|Location2.X=7242mil|Location1.Y=2471.5mil|Location2.Y=2761.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=6967.5mil|Location2.X=7242mil|Location1.Y=2471.5mil|Location2.Y=2761.481mil|Absolute=True">Small Component Q1-2SC1815 (7105mil,2540mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9192.5mil|Location2.X=9603.539mil|Location1.Y=2088.5mil|Location2.Y=2761.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9192.5mil|Location2.X=9603.539mil|Location1.Y=2088.5mil|Location2.Y=2761.481mil|Absolute=True">SMT Small Component LS?-Speaker (9415mil,2375mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5506.063mil|Location2.X=5676.452mil|Location1.Y=2536.063mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5506.063mil|Location2.X=5676.452mil|Location1.Y=2536.063mil|Location2.Y=2763.481mil|Absolute=True">Small Component J18-Header 1x1 (5570mil,2600mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5241mil|Location2.X=5410.952mil|Location1.Y=3906.063mil|Location2.Y=4833.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5241mil|Location2.X=5410.952mil|Location1.Y=3906.063mil|Location2.Y=4833.981mil|Absolute=True">SIP Component J17-Port LED (5305mil,4320mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4646.063mil|Location2.X=4816.452mil|Location1.Y=2336.063mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4646.063mil|Location2.X=4816.452mil|Location1.Y=2336.063mil|Location2.Y=2763.481mil|Absolute=True">Small Component J16-Header 1x3 (4710mil,2500mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1026.063mil|Location2.X=1196.451mil|Location1.Y=2136.063mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1026.063mil|Location2.X=1196.451mil|Location1.Y=2136.063mil|Location2.Y=2763.481mil|Absolute=True">SIP Component J15-Header 1x5 (1090mil,2400mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1246.063mil|Location2.X=1473.937mil|Location1.Y=2336.063mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1246.063mil|Location2.X=1473.937mil|Location1.Y=2336.063mil|Location2.Y=2763.481mil|Absolute=True">DIP Component J14-Header 2x3 (1360mil,2500mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1741.063mil|Location2.X=1911.451mil|Location1.Y=2336.063mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1741.063mil|Location2.X=1911.451mil|Location1.Y=2336.063mil|Location2.Y=2763.481mil|Absolute=True">Small Component J13-Header 1x3 (1805mil,2500mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1521.063mil|Location2.X=1691.451mil|Location1.Y=2336.063mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1521.063mil|Location2.X=1691.451mil|Location1.Y=2336.063mil|Location2.Y=2763.481mil|Absolute=True">Small Component J12-Header 1x3 (1585mil,2500mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2336mil|Location2.X=2759.115mil|Location1.Y=6066mil|Location2.Y=6773.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2336mil|Location2.X=2759.115mil|Location1.Y=6066mil|Location2.Y=6773.981mil|Absolute=True">Small Component J11-Jack DC (2590mil,6375mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1771mil|Location2.X=2598.937mil|Location1.Y=5046.063mil|Location2.Y=5273.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1771mil|Location2.X=2598.937mil|Location1.Y=5046.063mil|Location2.Y=5273.981mil|Absolute=True">SIP Component J9-Port 1 (2185mil,5110mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1706mil|Location2.X=2533.937mil|Location1.Y=4126.063mil|Location2.Y=4353.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1706mil|Location2.X=2533.937mil|Location1.Y=4126.063mil|Location2.Y=4353.981mil|Absolute=True">SIP Component J6-Port 2 (2120mil,4190mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4466.063mil|Location2.X=4593.937mil|Location1.Y=2436.063mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4466.063mil|Location2.X=4593.937mil|Location1.Y=2436.063mil|Location2.Y=2763.481mil|Absolute=True">Small Component J5-Header 1x2 (4530mil,2550mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10666.063mil|Location2.X=10793.937mil|Location1.Y=2436.063mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=10666.063mil|Location2.X=10793.937mil|Location1.Y=2436.063mil|Location2.Y=2763.481mil|Absolute=True">Small Component J3-Header 1x2 (10730mil,2550mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1961.063mil|Location2.X=2188.937mil|Location1.Y=2336.063mil|Location2.Y=2763.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1961.063mil|Location2.X=2188.937mil|Location1.Y=2336.063mil|Location2.Y=2763.481mil|Absolute=True">DIP Component J2-Header 2x3 (2075mil,2500mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=748.5mil|Location2.X=1237.5mil|Location1.Y=5592.5mil|Location2.Y=6108.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=748.5mil|Location2.X=1237.5mil|Location1.Y=5592.5mil|Location2.Y=6108.981mil|Absolute=True">Small Component J1-Domino 2 (1160mil,5900mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1370.5mil|Location2.X=1581.5mil|Location1.Y=5511.5mil|Location2.Y=6199.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1370.5mil|Location2.X=1581.5mil|Location1.Y=5511.5mil|Location2.Y=6199.481mil|Absolute=True">SIP Component DB1-Diode Bridge (1485mil,5805mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4515.016mil|Location2.X=4755.288mil|Location1.Y=3025.016mil|Location2.Y=3384.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4515.016mil|Location2.X=4755.288mil|Location1.Y=3025.016mil|Location2.Y=3384.481mil|Absolute=True">Small Component D12-LED (4595mil,3155mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4415.016mil|Location2.X=4655.288mil|Location1.Y=3420.016mil|Location2.Y=3779.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4415.016mil|Location2.X=4655.288mil|Location1.Y=3420.016mil|Location2.Y=3779.481mil|Absolute=True">Small Component D11-LED (4495mil,3550mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4490.016mil|Location2.X=4730.288mil|Location1.Y=3735.016mil|Location2.Y=4094.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4490.016mil|Location2.X=4730.288mil|Location1.Y=3735.016mil|Location2.Y=4094.481mil|Absolute=True">Small Component D10-LED (4570mil,3865mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4485.016mil|Location2.X=4725.288mil|Location1.Y=4310.016mil|Location2.Y=4669.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4485.016mil|Location2.X=4725.288mil|Location1.Y=4310.016mil|Location2.Y=4669.481mil|Absolute=True">Small Component D8-LED (4565mil,4440mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4540.016mil|Location2.X=4780.288mil|Location1.Y=4585.016mil|Location2.Y=4944.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4540.016mil|Location2.X=4780.288mil|Location1.Y=4585.016mil|Location2.Y=4944.481mil|Absolute=True">Small Component D7-LED (4620mil,4715mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4565.016mil|Location2.X=4805.288mil|Location1.Y=4875.016mil|Location2.Y=5234.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4565.016mil|Location2.X=4805.288mil|Location1.Y=4875.016mil|Location2.Y=5234.481mil|Absolute=True">Small Component D6-LED (4645mil,5005mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4515.016mil|Location2.X=4755.288mil|Location1.Y=5145.016mil|Location2.Y=5504.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4515.016mil|Location2.X=4755.288mil|Location1.Y=5145.016mil|Location2.Y=5504.481mil|Absolute=True">Small Component D5-LED (4595mil,5275mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4160mil|Location2.X=4419.984mil|Location1.Y=6160.016mil|Location2.Y=6499.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4160mil|Location2.X=4419.984mil|Location1.Y=6160.016mil|Location2.Y=6499.981mil|Absolute=True">Small Component D2-LED (4290mil,6240mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2790mil|Location2.X=3049.984mil|Location1.Y=5594.712mil|Location2.Y=5934.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2790mil|Location2.X=3049.984mil|Location1.Y=5594.712mil|Location2.Y=5934.981mil|Absolute=True">Small Component D1-LED (2920mil,5755mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5286.5mil|Location2.X=5456.452mil|Location1.Y=2435.066mil|Location2.Y=2764.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5286.5mil|Location2.X=5456.452mil|Location1.Y=2435.066mil|Location2.Y=2764.481mil|Absolute=True">Small Component C12-Cap Non Pol (5330mil,2495mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5086.5mil|Location2.X=5236.458mil|Location1.Y=2435.066mil|Location2.Y=2764.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=5086.5mil|Location2.X=5236.458mil|Location1.Y=2435.066mil|Location2.Y=2764.481mil|Absolute=True">Small Component C11-Cap Non Pol (5130mil,2495mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4866.5mil|Location2.X=5036.452mil|Location1.Y=2435.066mil|Location2.Y=2764.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4866.5mil|Location2.X=5036.452mil|Location1.Y=2435.066mil|Location2.Y=2764.481mil|Absolute=True">Small Component C10-Cap Non Pol (4910mil,2495mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9656.5mil|Location2.X=9776.468mil|Location1.Y=2435.066mil|Location2.Y=2764.481mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=9656.5mil|Location2.X=9776.468mil|Location1.Y=2435.066mil|Location2.Y=2764.481mil|Absolute=True">Small Component C9-Cap Non Pol (9700mil,2495mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3831mil|Location2.X=3950.968mil|Location1.Y=6195.066mil|Location2.Y=6524.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3831mil|Location2.X=3950.968mil|Location1.Y=6195.066mil|Location2.Y=6524.981mil|Absolute=True">Small Component C8-Cap Non Pol (3875mil,6365mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3331mil|Location2.X=3738.5mil|Location1.Y=6101.5mil|Location2.Y=6608.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3331mil|Location2.X=3738.5mil|Location1.Y=6101.5mil|Location2.Y=6608.981mil|Absolute=True">Small Component C7-Cap Pol (3535mil,6405mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2926.5mil|Location2.X=3046.968mil|Location1.Y=3905.066mil|Location2.Y=4234.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2926.5mil|Location2.X=3046.968mil|Location1.Y=3905.066mil|Location2.Y=4234.981mil|Absolute=True">Small Component C6-Cap Non Pol (2970mil,4075mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3561mil|Location2.X=3680.968mil|Location1.Y=3905.066mil|Location2.Y=4234.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3561mil|Location2.X=3680.968mil|Location1.Y=3905.066mil|Location2.Y=4234.981mil|Absolute=True">Small Component C5-Cap Non Pol (3605mil,3965mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3015mil|Location2.X=3244.934mil|Location1.Y=6036.5mil|Location2.Y=6222.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3015mil|Location2.X=3244.934mil|Location1.Y=6036.5mil|Location2.Y=6222.981mil|Absolute=True">Small Component C4-Cap Non Pol (3075mil,6080mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3106mil|Location2.X=3513.5mil|Location1.Y=5511.5mil|Location2.Y=6017.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3106mil|Location2.X=3513.5mil|Location1.Y=5511.5mil|Location2.Y=6017.981mil|Absolute=True">Small Component C3-Cap Pol (3210mil,5715mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1710mil|Location2.X=1939.934mil|Location1.Y=6001.5mil|Location2.Y=6188.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1710mil|Location2.X=1939.934mil|Location1.Y=6001.5mil|Location2.Y=6188.981mil|Absolute=True">Small Component C2-Cap Non Pol (1770mil,6045mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1656.5mil|Location2.X=2063.5mil|Location1.Y=5526.5mil|Location2.Y=6033.981mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=E:\Altium\C17\C17.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=1656.5mil|Location2.X=2063.5mil|Location1.Y=5526.5mil|Location2.Y=6033.981mil|Absolute=True">Small Component C1-Cap Pol (1860mil,5630mil) on Top Layer</acronym></a> - Component origin is already ON grid.</td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

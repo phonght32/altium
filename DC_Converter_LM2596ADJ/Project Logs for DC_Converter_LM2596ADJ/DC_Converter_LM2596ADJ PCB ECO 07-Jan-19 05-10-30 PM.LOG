@@ -1,0 +1,19 @@
+Removed Pin From Net: NetName=NetR2_2 Pin=VR1-1
+Removed Pin From Net: NetName=Vout Pin=VR1-2
+Removed Member From Class: ClassName=DC_Converter_LM2596ADJ Member=VR1
+Change Component Designator: OldDesignator=R3 NewDesignator=R4
+Change Component Designator: OldDesignator=R4 NewDesignator=R5
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R7
+Change Component Designator: OldDesignator=R7 NewDesignator=R8
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R3(RES-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetR2_2 Pin=R3-1
+Added Pin To Net: NetName=Vout Pin=R3-2
+Change Net Name : Old Net Name=NetR3_2 New Net Name=NetR4_2
+Change Net Name : Old Net Name=NetR5_2 New Net Name=NetR6_2
+Change Net Name : Old Net Name=NetR7_2 New Net Name=NetR8_2
+Added Member To Class: ClassName=DC_Converter_LM2596ADJ Member=Component R9 RESISTOR SMD

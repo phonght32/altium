@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Member From Class: ClassName=Pulse Sensor Member=C3
+Added Pin To Net: NetName=GND Pin=IC1-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=P1-2
+Added Pin To Net: NetName=GND Pin=U1-0
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=GND Pin=VR1-3
+Added Pin To Net: NetName=GND Pin=VR2-3
+Change Net Name : Old Net Name=GND New Net Name=3V3

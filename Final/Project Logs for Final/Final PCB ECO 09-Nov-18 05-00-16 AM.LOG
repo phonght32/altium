@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=D5-2
+Removed Pin From Net: NetName=GND Pin=D6-2
+Removed Pin From Net: NetName=GND Pin=D7-2
+Removed Member From Class: ClassName=page3_mcu Member=D5
+Removed Member From Class: ClassName=page3_mcu Member=D6
+Removed Member From Class: ClassName=page3_mcu Member=D7
+Removed Member From Class: ClassName=page3_mcu Member=R11
+Removed Member From Class: ClassName=page3_mcu Member=R12
+Removed Member From Class: ClassName=page3_mcu Member=R13

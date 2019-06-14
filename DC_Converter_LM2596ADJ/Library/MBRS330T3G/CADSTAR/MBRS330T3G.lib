@@ -1,0 +1,20 @@
+.MBRS330T3G :1
+DIOM7958X256N
+*STM D
+*NGS
+*PLB 1="K" 2="A"
+*MXP 2
+*DFN MBRS330T3G
+~!Manufacturer_Name (ON Semiconductor)
+~!Manufacturer_Part_Number (MBRS330T3G)
+~!RS Part Number (7925644P)
+~!Link RS Price/Stock (http://uk.rs-online.com/web/p/products/7925644P)
+~!Allied_Number (70099508)
+~!Link Allied Price/Stock (http://www.alliedelec.com/on-semiconductor-mbrs330t3g/70099508/)
+~!Mouser Part Number (863-MBRS330T3G)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=863-MBRS330T3G)
+~!Link Datasheet (http://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF)
+~!Height (2.56mm)
+~!3D_Model (MBRS330T3G)
+MBRS330T3G
+1.1!U 2.1!U 

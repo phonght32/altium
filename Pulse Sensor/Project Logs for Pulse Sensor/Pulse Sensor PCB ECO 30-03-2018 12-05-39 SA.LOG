@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=P1.0 Pin=J2-1
+Removed Pin From Net: NetName=GND Pin=J2-3
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=P1.0 Pin=J2-3
+Added Member To Class: ClassName=Pulse Sensor Member=Component J2 Header 1x3

@@ -1,0 +1,57 @@
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=VCC Pin=C1-2
+Removed Pin From Net: NetName=CLK_C Pin=IC1-12
+Removed Pin From Net: NetName=CLK_C Pin=IC2-12
+Removed Pin From Net: NetName=CLK_R Pin=IC4-11
+Removed Pin From Net: NetName=LAT_R Pin=IC4-12
+Change Component DesignItemId : Designator=C1 Old DesignItemId=Cap Non-Pol New DesignItemId=Cap Non-Pol SMD
+Change Component DesignItemId : Designator=R1 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R2 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R3 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R4 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R5 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R6 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R7 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R8 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R9 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R10 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R11 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R12 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R13 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R14 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R15 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R16 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component DesignItemId : Designator=R17 Old DesignItemId=RESISTOR New DesignItemId=RESISTOR SMD
+Change Component Footprint: Designator=C1 Old Footprint=CN1 New Footprint=CN2.5
+Change Component Comment : Designator=C1 Old Comment=Cap Non-Pol New Comment=Cap Non-Pol SMD
+Change Component Comment : Designator=R1 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R2 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R3 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R4 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R5 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R6 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R7 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R8 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R9 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R10 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R11 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R12 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R13 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R14 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R15 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R16 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Change Component Comment : Designator=R17 Old Comment=RESISTOR New Comment=RESISTOR SMD
+Added Pin To Net: NetName=VCC Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
+Added Pin To Net: NetName=CLK_C Pin=IC1-11
+Added Pin To Net: NetName=CLK_C Pin=IC2-11
+Added Pin To Net: NetName=LAT_R Pin=IC4-11
+Added Pin To Net: NetName=CLK_R Pin=IC4-12
+Added Pin To Net: NetName=DATA_C Pin=IC1-14
+Added Pin To Net: NetName=DATA_C Pin=P2-1
+Added Net: Name=DATA_C
+Added Pin To Net: NetName=LAT_C Pin=IC1-12
+Added Pin To Net: NetName=LAT_C Pin=IC2-12
+Added Pin To Net: NetName=LAT_C Pin=P2-3
+Added Net: Name=LAT_C
+Added Room: Name=Sheet1

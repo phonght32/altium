@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=LCD1 Old Footprint=LCD16X2N New Footprint=LCD16X2
+Added Member To Class: ClassName=TTDT2 Member=Component LCD1 LCD16x2A

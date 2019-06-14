@@ -1,0 +1,2 @@
+Change Component Footprint: Designator=R1 Old Footprint=R 1/4W DIP 100mil New Footprint=R 1/4W DIP 400mil
+Added Member To Class: ClassName=Pulse Sensor Member=Component S1 Tact SW - 2Pin

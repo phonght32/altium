@@ -1,0 +1,66 @@
+Move Component(s) Origin to Grid
+Filename     : E:\Altium\C17\C17.PcbDoc
+Date         : 13/10/2017
+Time         : 8:56:44 SA
+Time Elapsed : 00:00:00
+
+
+    Small Component D9-LED (4545mil,4130mil) on Top Layer - Component origin is already ON grid.
+    Small Component Y1-XTAL (3300mil,3750mil) on Bottom Layer - Origin changed from [3300.638mil:3749.883mil] to [3300mil:3750mil]
+    Small Component VR1-VR (10375mil,2415mil) on Top Layer - Component origin is already ON grid.
+    Component U3-L1117-3V3 (3115mil,6350mil) on Bottom Layer - Component origin is already ON grid. - Component pads are OFF grid. No action taken.
+    Component U2-7805 (1800mil,6335mil) on Top Layer - Component origin is already ON grid.
+    DIP Component U1-MSP430G2553 (2530mil,4855mil) on Top Layer - Component origin is already ON grid.
+    Component SW4-SW (6195mil,2425mil) on Top Layer - Component origin is already ON grid.
+    Component SW3-SW (6605mil,2475mil) on Top Layer - Component origin is already ON grid.
+    Component SW2-SW (5780mil,2425mil) on Top Layer - Component origin is already ON grid.
+    Small Component SW1-SW-SPDT (2480mil,5735mil) on Top Layer - Component origin is already ON grid. - Component pads are OFF grid. No action taken.
+    Component S1-SW - DIP2 (3170mil,4070mil) on Top Layer - Component origin is already ON grid.
+    Small Component R13-Resistor (7350mil,2605mil) on Top Layer - Component origin is already ON grid.
+    Small Component R12-Resistor (8345mil,2605mil) on Top Layer - Component origin is already ON grid.
+    SIP Component R11-Resistor Network 8 (4045mil,4830mil) on Top Layer - Component origin is already ON grid.
+    Small Component R7-Resistor (8095mil,2605mil) on Top Layer - Component origin is already ON grid.
+    Small Component R6-Resistor (7845mil,2605mil) on Top Layer - Component origin is already ON grid.
+    Small Component R5-Resistor (7600mil,2605mil) on Top Layer - Component origin is already ON grid.
+    Small Component R4-Resistor (10905mil,2605mil) on Top Layer - Component origin is already ON grid.
+    Small Component R2-Resistor (4050mil,6350mil) on Top Layer - Component origin is already ON grid.
+    Small Component R1-Resistor (2915mil,5455mil) on Top Layer - Component origin is already ON grid.
+    Small Component Q1-2SC1815 (7105mil,2540mil) on Top Layer - Component origin is already ON grid.
+    SMT Small Component LS?-Speaker (9415mil,2375mil) on Top Layer - Component origin is already ON grid.
+    Small Component J18-Header 1x1 (5570mil,2600mil) on Top Layer - Component origin is already ON grid.
+    SIP Component J17-Port LED (5305mil,4320mil) on Top Layer - Component origin is already ON grid.
+    Small Component J16-Header 1x3 (4710mil,2500mil) on Top Layer - Component origin is already ON grid.
+    SIP Component J15-Header 1x5 (1090mil,2400mil) on Top Layer - Component origin is already ON grid.
+    DIP Component J14-Header 2x3 (1360mil,2500mil) on Top Layer - Component origin is already ON grid.
+    Small Component J13-Header 1x3 (1805mil,2500mil) on Top Layer - Component origin is already ON grid.
+    Small Component J12-Header 1x3 (1585mil,2500mil) on Top Layer - Component origin is already ON grid.
+    Small Component J11-Jack DC (2590mil,6375mil) on Top Layer - Component origin is already ON grid.
+    SIP Component J9-Port 1 (2185mil,5110mil) on Top Layer - Component origin is already ON grid.
+    SIP Component J6-Port 2 (2120mil,4190mil) on Top Layer - Component origin is already ON grid.
+    Small Component J5-Header 1x2 (4530mil,2550mil) on Top Layer - Component origin is already ON grid.
+    Small Component J3-Header 1x2 (10730mil,2550mil) on Top Layer - Component origin is already ON grid.
+    DIP Component J2-Header 2x3 (2075mil,2500mil) on Top Layer - Component origin is already ON grid.
+    Small Component J1-Domino 2 (1160mil,5900mil) on Top Layer - Component origin is already ON grid.
+    SIP Component DB1-Diode Bridge (1485mil,5805mil) on Top Layer - Component origin is already ON grid.
+    Small Component D12-LED (4595mil,3155mil) on Top Layer - Component origin is already ON grid.
+    Small Component D11-LED (4495mil,3550mil) on Top Layer - Component origin is already ON grid.
+    Small Component D10-LED (4570mil,3865mil) on Top Layer - Component origin is already ON grid.
+    Small Component D8-LED (4565mil,4440mil) on Top Layer - Component origin is already ON grid.
+    Small Component D7-LED (4620mil,4715mil) on Top Layer - Component origin is already ON grid.
+    Small Component D6-LED (4645mil,5005mil) on Top Layer - Component origin is already ON grid.
+    Small Component D5-LED (4595mil,5275mil) on Top Layer - Component origin is already ON grid.
+    Small Component D2-LED (4290mil,6240mil) on Top Layer - Component origin is already ON grid.
+    Small Component D1-LED (2920mil,5755mil) on Top Layer - Component origin is already ON grid.
+    Small Component C12-Cap Non Pol (5330mil,2495mil) on Top Layer - Component origin is already ON grid.
+    Small Component C11-Cap Non Pol (5130mil,2495mil) on Top Layer - Component origin is already ON grid.
+    Small Component C10-Cap Non Pol (4910mil,2495mil) on Top Layer - Component origin is already ON grid.
+    Small Component C9-Cap Non Pol (9700mil,2495mil) on Top Layer - Component origin is already ON grid.
+    Small Component C8-Cap Non Pol (3875mil,6365mil) on Top Layer - Component origin is already ON grid.
+    Small Component C7-Cap Pol (3535mil,6405mil) on Top Layer - Component origin is already ON grid.
+    Small Component C6-Cap Non Pol (2970mil,4075mil) on Top Layer - Component origin is already ON grid.
+    Small Component C5-Cap Non Pol (3605mil,3965mil) on Top Layer - Component origin is already ON grid.
+    Small Component C4-Cap Non Pol (3075mil,6080mil) on Top Layer - Component origin is already ON grid.
+    Small Component C3-Cap Pol (3210mil,5715mil) on Top Layer - Component origin is already ON grid.
+    Small Component C2-Cap Non Pol (1770mil,6045mil) on Top Layer - Component origin is already ON grid.
+    Small Component C1-Cap Pol (1860mil,5630mil) on Top Layer - Component origin is already ON grid.
+count : 58

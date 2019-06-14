@@ -1,0 +1,17 @@
+Removed Member From Class: ClassName=page3_mcu Member=C20
+Removed Member From Class: ClassName=page3_mcu Member=C21
+Removed Member From Class: ClassName=page3_mcu Member=C22
+Removed Member From Class: ClassName=page3_mcu Member=C23
+Removed Member From Class: ClassName=Page4_GSM Member=C25
+Removed Member From Class: ClassName=Page4_GSM Member=C26
+Added Pin To Net: NetName=V_PinLipo+ Pin=C4-1
+Added Pin To Net: NetName=V_PinLipo+ Pin=C6-2
+Added Pin To Net: NetName=V_PinLipo+ Pin=U1-1
+Change Net Name : Old Net Name=V_PinLipo+ New Net Name=V+
+Added Member To Class: ClassName=page3_mcu Member=Component C12 Cap Non-Pol SMD
+Added Member To Class: ClassName=page3_mcu Member=Component C13 Cap Non-Pol SMD
+Added Member To Class: ClassName=page3_mcu Member=Component C14 Cap Non-Pol SMD
+Added Member To Class: ClassName=page3_mcu Member=Component C15 Cap Non-Pol SMD
+Added Member To Class: ClassName=Page4_GSM Member=Component C16 Cap Pol SMD
+Added Member To Class: ClassName=Page4_GSM Member=Component C17 Cap Non-Pol SMD
+Added Member To Class: ClassName=Page4_GSM Member=Component C18 Cap Non-Pol SMD

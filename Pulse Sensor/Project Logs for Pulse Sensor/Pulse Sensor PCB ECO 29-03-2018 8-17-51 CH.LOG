@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=RST Pin=JTAG1-1
+Removed Pin From Net: NetName=TEST Pin=JTAG1-2
+Removed Pin From Net: NetName=GND Pin=JTAG1-3
+Removed Member From Class: ClassName=Pulse Sensor Member=JTAG1

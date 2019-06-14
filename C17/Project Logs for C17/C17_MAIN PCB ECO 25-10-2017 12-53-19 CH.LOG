@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=C17 NewDesignator=LOGO1
+Change Component Designator: OldDesignator=MSP430G2553 NewDesignator=U1
+Added Member To Class: ClassName=C17 Member=Component J14 Header 2x3
+Added Member To Class: ClassName=C17 Member=Component LOGO1 LOGO PIF
+Added Member To Class: ClassName=C17 Member=Component R4 Resistor
+Added Room: Name=C17

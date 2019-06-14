@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=P1.7 Pin=MPU6050-5
+Removed Pin From Net: NetName=P1.6 Pin=MPU6050-6
+Removed Pin From Net: NetName=GND Pin=MPU6050-7
+Removed Pin From Net: NetName=3V3 Pin=MPU6050-8
+Removed Member From Class: ClassName=TTDT2 Member=MPU6050
+Removed Member From Class: ClassName=TTDT2 Member=R3
+Change Component Designator: OldDesignator=DS18B20 NewDesignator=J5
+Change Component Designator: OldDesignator=DS1307 NewDesignator=J2
+Change Component Designator: OldDesignator=JTAG NewDesignator=J3
+Change Component Designator: OldDesignator=Pulse Sensor NewDesignator=J4
+Added Member To Class: ClassName=TTDT2 Member=Component C2 Cap Non Pol
+Added Member To Class: ClassName=TTDT2 Member=Component R2 Resistor

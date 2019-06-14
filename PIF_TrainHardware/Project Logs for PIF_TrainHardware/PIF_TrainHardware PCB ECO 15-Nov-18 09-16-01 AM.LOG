@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=MCU_ADC_IN1 Pin=2-11
+Added Pin To Net: NetName=GPS_PPS Pin=2-11
+Added Pin To Net: NetName=GPS_PPS Pin=U4-4
+Added Net: Name=GPS_PPS

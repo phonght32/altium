@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MBRS330T3G
+#/225028/75894/2.36/2/3/Diode
+DEF MBRS330T3G D 0 30 Y Y 1 F N
+F0 "D" 450 200 50 H V L CNN
+F1 "MBRS330T3G" 450 100 50 H V L CNN
+F2 "DIOM7958X256N" 450 0 50 H I L CNN
+F3 "http://www.onsemi.com/pub/Collateral/MBRS340T3-D.PDF" 450 -100 50 H I L CNN
+F4 "" 450 -200 50 H I L CNN "Description"
+F5 "2.56" 450 -300 50 H I L CNN "Height"
+F6 "ON Semiconductor" 450 -400 50 H I L CNN "Manufacturer_Name"
+F7 "MBRS330T3G" 450 -500 50 H I L CNN "Manufacturer_Part_Number"
+F8 "7925644P" 450 -600 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/7925644P" 450 -700 50 H I L CNN "RS Price/Stock"
+F10 "70099508" 450 -800 50 H I L CNN "Allied_Number"
+F11 "http://www.alliedelec.com/on-semiconductor-mbrs330t3g/70099508/" 450 -900 50 H I L CNN "Allied Price/Stock"
+F12 "863-MBRS330T3G" 450 -1000 50 H I L CNN "Mouser Part Number"
+F13 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-MBRS330T3G" 450 -1100 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 B
+X ~ 2 600 0 200 L 50 50 0 0 B
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

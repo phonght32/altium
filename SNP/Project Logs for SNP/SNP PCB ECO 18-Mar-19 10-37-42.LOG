@@ -1,0 +1,154 @@
+Removed Pin From Net: NetName=P2.0 Pin=D1-1
+Removed Pin From Net: NetName=P2.1 Pin=D2-1
+Removed Pin From Net: NetName=P2.2 Pin=D3-1
+Removed Pin From Net: NetName=P2.3 Pin=D4-1
+Removed Pin From Net: NetName=GND Pin=R3-2
+Removed Pin From Net: NetName=GND Pin=R4-2
+Removed Pin From Net: NetName=GND Pin=R5-2
+Removed Pin From Net: NetName=GND Pin=R6-2
+Removed Member From Class: ClassName=SNP Member=D2
+Removed Member From Class: ClassName=SNP Member=D3
+Removed Member From Class: ClassName=SNP Member=D4
+Removed Member From Class: ClassName=SNP Member=D5
+Change Component Footprint: Designator=R3 Old Footprint=R 1/4W DIP 400mil New Footprint=RES 1/2W
+Change Component Footprint: Designator=R4 Old Footprint=R 1/4W DIP 400mil New Footprint=RES 1/2W
+Change Component Footprint: Designator=R5 Old Footprint=R 1/4W DIP 400mil New Footprint=RES 1/2W
+Change Component Footprint: Designator=R6 Old Footprint=R 1/4W DIP 400mil New Footprint=RES 1/2W
+Change Component Designator: OldDesignator=D5 NewDesignator=D1
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=LED1(LED-5MMRGBCA)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LED2(LED-5MMRGBCA)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LED3(LED-5MMRGBCA)
+Add component. Clean all parameters for all variants
+Added Component: Designator=LED4(LED-5MMRGBCA)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RES 1/2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RES 1/2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RES 1/2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R11(RES 1/2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R12(RES 1/2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R13(RES 1/2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R14(RES 1/2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R15(RES 1/2W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=LED1-A
+Added Pin To Net: NetName=3V3 Pin=LED2-A
+Added Pin To Net: NetName=3V3 Pin=LED3-A
+Added Pin To Net: NetName=3V3 Pin=LED4-A
+Added Pin To Net: NetName=3V3 Pin=P1-4
+Added Pin To Net: NetName=P1.2 Pin=R5-1
+Added Pin To Net: NetName=P2.0 Pin=R10-1
+Added Pin To Net: NetName=P2.1 Pin=R11-1
+Added Pin To Net: NetName=P2.2 Pin=R12-1
+Added Pin To Net: NetName=P2.3 Pin=R13-1
+Change Net Name : Old Net Name=NetD5_1 New Net Name=NetD1_1
+Added Pin To Net: NetName=NetLED1_B Pin=LED1-B
+Added Pin To Net: NetName=NetLED1_B Pin=R4-2
+Added Net: Name=NetLED1_B
+Added Pin To Net: NetName=NetLED1_G Pin=LED1-G
+Added Pin To Net: NetName=NetLED1_G Pin=R3-2
+Added Net: Name=NetLED1_G
+Added Pin To Net: NetName=NetLED1_R Pin=LED1-R
+Added Pin To Net: NetName=NetLED1_R Pin=R5-2
+Added Net: Name=NetLED1_R
+Added Pin To Net: NetName=NetLED2_B Pin=LED2-B
+Added Pin To Net: NetName=NetLED2_B Pin=R7-2
+Added Net: Name=NetLED2_B
+Added Pin To Net: NetName=NetLED2_G Pin=LED2-G
+Added Pin To Net: NetName=NetLED2_G Pin=R6-2
+Added Net: Name=NetLED2_G
+Added Pin To Net: NetName=NetLED2_R Pin=LED2-R
+Added Pin To Net: NetName=NetLED2_R Pin=R8-2
+Added Net: Name=NetLED2_R
+Added Pin To Net: NetName=NetLED3_B Pin=LED3-B
+Added Pin To Net: NetName=NetLED3_B Pin=R11-2
+Added Net: Name=NetLED3_B
+Added Pin To Net: NetName=NetLED3_G Pin=LED3-G
+Added Pin To Net: NetName=NetLED3_G Pin=R10-2
+Added Net: Name=NetLED3_G
+Added Pin To Net: NetName=NetLED3_R Pin=LED3-R
+Added Pin To Net: NetName=NetLED3_R Pin=R12-2
+Added Net: Name=NetLED3_R
+Added Pin To Net: NetName=NetLED4_B Pin=LED4-B
+Added Pin To Net: NetName=NetLED4_B Pin=R14-2
+Added Net: Name=NetLED4_B
+Added Pin To Net: NetName=NetLED4_G Pin=LED4-G
+Added Pin To Net: NetName=NetLED4_G Pin=R13-2
+Added Net: Name=NetLED4_G
+Added Pin To Net: NetName=NetLED4_R Pin=LED4-R
+Added Pin To Net: NetName=NetLED4_R Pin=R15-2
+Added Net: Name=NetLED4_R
+Added Pin To Net: NetName=P1.0 Pin=R3-1
+Added Pin To Net: NetName=P1.0 Pin=U1-2
+Added Net: Name=P1.0
+Added Pin To Net: NetName=P1.1 Pin=R4-1
+Added Pin To Net: NetName=P1.1 Pin=U1-3
+Added Net: Name=P1.1
+Added Pin To Net: NetName=P1.3 Pin=R6-1
+Added Pin To Net: NetName=P1.3 Pin=U1-5
+Added Net: Name=P1.3
+Added Pin To Net: NetName=P1.4 Pin=R7-1
+Added Pin To Net: NetName=P1.4 Pin=U1-6
+Added Net: Name=P1.4
+Added Pin To Net: NetName=P1.5 Pin=R8-1
+Added Pin To Net: NetName=P1.5 Pin=U1-7
+Added Net: Name=P1.5
+Added Pin To Net: NetName=P1.7 Pin=U1-15
+Added Net: Name=P1.7
+Added Pin To Net: NetName=P1/6 Pin=U1-14
+Added Net: Name=P1/6
+Added Pin To Net: NetName=P2.4 Pin=R14-1
+Added Pin To Net: NetName=P2.4 Pin=U1-12
+Added Net: Name=P2.4
+Added Pin To Net: NetName=P2.5 Pin=R15-1
+Added Pin To Net: NetName=P2.5 Pin=U1-13
+Added Net: Name=P2.5
+Added Member To Class: ClassName=SNP Member=Component LED1 LED-RGB
+Added Member To Class: ClassName=SNP Member=Component LED2 LED-RGB
+Added Member To Class: ClassName=SNP Member=Component LED3 LED-RGB
+Added Member To Class: ClassName=SNP Member=Component LED4 LED-RGB
+Added Member To Class: ClassName=SNP Member=Component R8 RESISTOR
+Added Member To Class: ClassName=SNP Member=Component R9 Resistor
+Added Member To Class: ClassName=SNP Member=Component R10 RESISTOR
+Added Member To Class: ClassName=SNP Member=Component R11 RESISTOR
+Added Member To Class: ClassName=SNP Member=Component R12 RESISTOR
+Added Member To Class: ClassName=SNP Member=Component R13 RESISTOR
+Added Member To Class: ClassName=SNP Member=Component R14 RESISTOR
+Added Member To Class: ClassName=SNP Member=Component R15 RESISTOR

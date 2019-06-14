@@ -1,0 +1,8 @@
+Removed Member From Class: ClassName=Page5_GPS Member=R47
+Removed Member From Class: ClassName=Page5_GPS Member=R48
+Added Pin To Net: NetName=MCU_ADC_IN1 Pin=2-11
+Added Member To Class: ClassName=Page6_Peripheral Member=Component P5 Header 7
+Added Member To Class: ClassName=Page6_Peripheral Member=Component P6 Header 6
+Added Member To Class: ClassName=Page6_Peripheral Member=Component P7 Header 6
+Added Member To Class: ClassName=Page5_GPS Member=Component R43 RESISTOR SMD
+Added Member To Class: ClassName=Page5_GPS Member=Component R44 RESISTOR SMD

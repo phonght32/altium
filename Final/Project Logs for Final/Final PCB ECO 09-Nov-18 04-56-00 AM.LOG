@@ -1,0 +1,64 @@
+Change Component Designator: OldDesignator=C12 NewDesignator=C20
+Change Component Designator: OldDesignator=C13 NewDesignator=C21
+Change Component Designator: OldDesignator=C14 NewDesignator=C22
+Change Component Designator: OldDesignator=C15 NewDesignator=C23
+Change Component Designator: OldDesignator=C16 NewDesignator=C24
+Change Component Designator: OldDesignator=C17 NewDesignator=C25
+Change Component Designator: OldDesignator=C18 NewDesignator=C26
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C12(CAP-SM-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C13(CAP-SM-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C14(CAP-SM-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C15(CAP-SM-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C16(CAP ALU SIZE B)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Added Component: Designator=C17(CAP-SM-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "100pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "10pF"; VariantName = "[No Variations]"
+Added Component: Designator=C18(CAP-SM-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "10pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Component: Designator=C19(CAP-SM-0805)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C12-1
+Added Pin To Net: NetName=3V3 Pin=C12-2
+Added Pin To Net: NetName=GND Pin=C13-1
+Added Pin To Net: NetName=3V3 Pin=C13-2
+Added Pin To Net: NetName=GND Pin=C14-1
+Added Pin To Net: NetName=3V3 Pin=C14-2
+Added Pin To Net: NetName=GND Pin=C15-1
+Added Pin To Net: NetName=3V3 Pin=C15-2
+Added Pin To Net: NetName=V_GSM Pin=C16-1
+Added Pin To Net: NetName=GND Pin=C16-2
+Added Pin To Net: NetName=GND Pin=C17-1
+Added Pin To Net: NetName=V_GSM Pin=C17-2
+Added Pin To Net: NetName=GND Pin=C18-1
+Added Pin To Net: NetName=V_GSM Pin=C18-2
+Added Pin To Net: NetName=GND Pin=C19-1
+Added Pin To Net: NetName=V_GSM Pin=C19-2
+Change Net Name : Old Net Name=NetC18_2 New Net Name=NetC26_2
+Added Member To Class: ClassName=page3_mcu Member=Component C12 Cap Non-Pol SMD
+Added Member To Class: ClassName=page3_mcu Member=Component C13 Cap Non-Pol SMD
+Added Member To Class: ClassName=page3_mcu Member=Component C14 Cap Non-Pol SMD
+Added Member To Class: ClassName=page3_mcu Member=Component C15 Cap Non-Pol SMD
+Added Member To Class: ClassName=Page4_GSM Member=Component C17 Cap Non-Pol SMD
+Added Member To Class: ClassName=Page4_GSM Member=Component C18 Cap Non-Pol SMD
+Added Member To Class: ClassName=Page4_GSM Member=Component C19 Cap Non-Pol SMD
+Added Member To Class: ClassName=Page4_GSM Member=Component C24 Cap Non-Pol SMD

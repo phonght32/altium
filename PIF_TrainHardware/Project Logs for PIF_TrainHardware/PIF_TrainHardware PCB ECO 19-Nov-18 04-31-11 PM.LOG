@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=GPS_PPS Pin=2-11
+Change Component Designator: OldDesignator=R43 NewDesignator=R45
+Change Component Designator: OldDesignator=R44 NewDesignator=R47
+Change Component Designator: OldDesignator=R45 NewDesignator=R48
+Added Component: Designator=D8(LED_0603_Blue)
+Add component. Clean all parameters for all variants
+Added Component: Designator=Q6(SOT23B)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R43(RES-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Added Component: Designator=R44(RES-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "4K7"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "47K"; VariantName = "[No Variations]"
+Added Component: Designator=R46(RES-SM-0603)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "47K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=D8-1
+Added Pin To Net: NetName=GND Pin=Q6-1
+Added Pin To Net: NetName=GPS_PPS Pin=R44-1
+Added Pin To Net: NetName=GND Pin=R46-2
+Added Pin To Net: NetName=NetD8_2 Pin=D8-2
+Added Pin To Net: NetName=NetD8_2 Pin=R43-2
+Added Net: Name=NetD8_2
+Added Pin To Net: NetName=NetQ6_2 Pin=Q6-2
+Added Pin To Net: NetName=NetQ6_2 Pin=R43-1
+Added Net: Name=NetQ6_2
+Added Pin To Net: NetName=NetQ6_3 Pin=Q6-3
+Added Pin To Net: NetName=NetQ6_3 Pin=R44-2
+Added Pin To Net: NetName=NetQ6_3 Pin=R46-1
+Added Net: Name=NetQ6_3
+Added Member To Class: ClassName=Page5_GPS Member=Component D8 LED SMD
+Added Member To Class: ClassName=Page6_Peripheral Member=Component P7 Header 6
+Added Member To Class: ClassName=Page5_GPS Member=Component Q6 C1815
+Added Member To Class: ClassName=Page5_GPS Member=Component R44 RESISTOR SMD
+Added Member To Class: ClassName=Page5_GPS Member=Component R45 RESISTOR SMD
+Added Member To Class: ClassName=Page5_GPS Member=Component R46 RESISTOR SMD

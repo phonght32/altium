@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator= NewDesignator=S2
+Change Component Designator: OldDesignator=LCD NewDesignator=P1
+Change Component Designator: OldDesignator=Light NewDesignator=VR2
+Added Component: Designator=LOGO1(PIF LOGO BIG SSTOP)
+Add component. Clean all parameters for all variants
+Added Member To Class: ClassName=Pulse Sensor Member=Component LOGO1 LOGO PIF

@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=R3 Old Footprint=R 1/4W DIP 100mil New Footprint=R0805
+Change Component Footprint: Designator=R4 Old Footprint=R 1/4W DIP 100mil New Footprint=R0805
+Added Member To Class: ClassName=TTDT2 Member=Component J2 Header 1x3
+Added Member To Class: ClassName=TTDT2 Member=Component R4 Resistor

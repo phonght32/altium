@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=Net1_2 Pin=C1-2
+Change Component Footprint: Designator=C4 Old Footprint=CAP-SM-0805 New Footprint=CAP-SM-0603
+Change Component Footprint: Designator=C8 Old Footprint=CAP-SM-0805 New Footprint=CAP-SM-0603
+Change Component Footprint: Designator=C9 Old Footprint=CAP-SM-0805 New Footprint=CAP-SM-0603
+Change Component Footprint: Designator=C14 Old Footprint=CAP-SM-0805 New Footprint=CAP-SM-0603
+Change Component Footprint: Designator=C16 Old Footprint=CAP-SM-0805 New Footprint=CAP-SM-0603
+Change Component Footprint: Designator=C17 Old Footprint=CAP-SM-0805 New Footprint=CAP-SM-0603
+Change Component Footprint: Designator=C30 Old Footprint=CAP-SM-0805 New Footprint=CAP-SM-0603
+Change Component Footprint: Designator=C1 Old Footprint=CAP-SM-0805 New Footprint=CAP ALU SIZE B
+Change Component Comment : Designator=C1 Old Comment=Cap Non-Pol SMD New Comment=Cap Pol SMD
+Added Pin To Net: NetName=Net1_2 Pin=C1-1
+Added Pin To Net: NetName=GND Pin=C1-2
